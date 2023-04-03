@@ -1,5 +1,8 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  variants: {
+    fill: ['hover', 'focus'], // this line does the trick
+  },
   content: ["./src/**/*.{js,jsx}"],
   mode: "jit",
   theme: {
