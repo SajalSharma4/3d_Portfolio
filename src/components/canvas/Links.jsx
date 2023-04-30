@@ -16,7 +16,7 @@ const Links = () => {
           <EmailIcon sx={{fontSize:40, "&:hover": { fontSize:50 } }}/>
 
           </a>
-          <a href="https://www.linkedin.com/in/sajal-sharma-86414b198" target="_blank" rel="noopener noreferrer" title="LinkedIn">
+          <a href="https://www.linkedin.com/in/sharma-sajal" target="_blank" rel="noopener noreferrer" title="LinkedIn">
             <LinkedInIcon sx={{fontSize:40, "&:hover": { fontSize:50 } }}/>
           </a>
           <a href="https://github.com/SajalSharma4" target="_blank" rel="noopener noreferrer"title="Github">

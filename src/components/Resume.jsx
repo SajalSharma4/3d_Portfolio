@@ -32,7 +32,7 @@ const ServiceCard = ({ index }) => (
 const Resume = () => {
   const viewCV = () => {
     window.open(
-      "https://drive.google.com/file/d/1VLxjdAMqoCbe6OHhv9A-ZYsBcVKlxo_r/view?usp=sharing",
+      "https://drive.google.com/file/d/1wDFwUugn8ab03jat1MCgZJZUzbXFJmTk/view?usp=sharing",
       "_blank"
     );
   };
@@ -40,7 +40,7 @@ const Resume = () => {
   const downloadCV = () => {
     const link = document.createElement("a");
     link.href =
-      "https://drive.google.com/uc?export=download&id=1VLxjdAMqoCbe6OHhv9A-ZYsBcVKlxo_r";
+      "https://drive.google.com/uc?export=download&id=1wDFwUugn8ab03jat1MCgZJZUzbXFJmTk";
     link.download = "Sajal_Sharma_Resume.pdf";
     link.click();
   };  
